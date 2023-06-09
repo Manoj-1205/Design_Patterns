@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9c067a4-0b85-4592-8877-2fbb8decfe1a" name="Changes" comment="Singleton Design pattern">
-      <change afterPath="$PROJECT_DIR$/src/Builder/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design Patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Design Patterns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="c9c067a4-0b85-4592-8877-2fbb8decfe1a" name="Changes" comment="Double-checked exception in Singleton" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +15,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="v1_BuilderAnnotation" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -35,17 +33,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Manoj H/Downloads/lombok.jar",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Manoj H/Downloads/lombok.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Singleton" />
@@ -74,6 +72,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Builder.Main" />
         <item itemvalue="Application.Builder.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -95,7 +95,63 @@
       <option name="project" value="LOCAL" />
       <updated>1686236632873</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Builder Design pattern">
+      <created>1686312755626</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686312755626</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Builder Design pattern">
+      <created>1686312763449</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686312763449</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Builder Design pattern">
+      <created>1686312797862</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686312797862</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Builder Design pattern">
+      <created>1686312805510</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686312805510</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Builder Design pattern by Builder lombok annotation">
+      <created>1686312983109</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686312983109</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Builder Design pattern by Builder lombok annotation">
+      <created>1686312989205</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686312989205</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Double-checked exception in Singleton">
+      <created>1686313305445</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686313305445</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Double-checked exception in Singleton">
+      <created>1686313311450</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686313311450</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +167,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Singleton Design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Singleton Design pattern" />
+    <MESSAGE value="Builder Design pattern" />
+    <MESSAGE value="Builder Design pattern by Builder lombok annotation" />
+    <MESSAGE value="Double-checked exception in Singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="Double-checked exception in Singleton" />
   </component>
 </project>
