@@ -1,3 +1,5 @@
+package Singleton;
+
 import Singleton.ConfigurationManager;
 
 public class Main {
