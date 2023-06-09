@@ -10,10 +10,19 @@ public class ConfigurationManager {
     }
 
     //step2 : Create a global access pointer
+
+
     public static ConfigurationManager getInstance(){
+            //Double-checked exception
             if(configurationManagerInstance == null){
-                configurationManagerInstance =  new ConfigurationManager();
+                synchronized (configurationManagerInstance){
+                    if(configurationManagerInstance == null){
+                        configurationManagerInstance =  new ConfigurationManager();
+                    }
+                }
             }
+
+
             return configurationManagerInstance;
     }
 }
