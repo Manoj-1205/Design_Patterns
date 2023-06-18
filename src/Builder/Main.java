@@ -10,7 +10,7 @@ public class Main {
                 .build();
 
 
-        System.out.println(employee.getEmpId()+" "+ employee.getName()+" "+employee.getDepartment());
+        System.out.println(employee.getEmpId()+" "+ employee.getName());
 
     }
 }
