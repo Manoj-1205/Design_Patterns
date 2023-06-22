@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9c067a4-0b85-4592-8877-2fbb8decfe1a" name="Changes" comment="Test chech">
-      <change afterPath="$PROJECT_DIR$/src/Prototype_and_Registry/BackgroundObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype_and_Registry/BackgroundObjectType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype_and_Registry/ChildClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype_and_Registry/ClonableObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype_and_Registry/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype_and_Registry/Parent.java" afterDir="false" />
+    <list default="true" id="c9c067a4-0b85-4592-8877-2fbb8decfe1a" name="Changes" comment="Prototype design pattern">
+      <change afterPath="$PROJECT_DIR$/src/Prototype_and_Registry/ForegroundObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prototype_and_Registry/Registry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Builder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prototype_and_Registry/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prototype_and_Registry/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -190,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686938047831</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Prototype design pattern">
+      <created>1687070999066</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1687070999066</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,6 +213,7 @@
     <MESSAGE value="Builder Design pattern by Builder lombok annotation" />
     <MESSAGE value="Double-checked exception in Singleton" />
     <MESSAGE value="Test chech" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test chech" />
+    <MESSAGE value="Prototype design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prototype design pattern" />
   </component>
 </project>
