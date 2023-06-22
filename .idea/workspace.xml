@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9c067a4-0b85-4592-8877-2fbb8decfe1a" name="Changes" comment="Creations Design patterns till Factory">
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/FactoryPattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/SimpleFactory/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/SimpleFactory/ButtonFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/SimpleFactory/ButtonType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/SimpleFactory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/SimpleFactory/ResetButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/SimpleFactory/SubmitButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c9c067a4-0b85-4592-8877-2fbb8decfe1a" name="Changes" comment="Simple Factory">
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/FactoryDesignPattern/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/FactoryDesignPattern/ButtonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/FactoryDesignPattern/ButtonType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/FactoryDesignPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/FactoryDesignPattern/ResetButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/FactoryDesignPattern/ResetButtonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/FactoryDesignPattern/SubmitButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/FactoryDesignPattern/SubmitButtonFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,7 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "D:/Intellij Java/Design Patterns",
+    "last_opened_file_path": "D:/Intellij Java/Design Patterns/FactoryPattern/src/FactoryDesignPattern",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -60,17 +59,33 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intellij Java\Design Patterns\FactoryPattern\src\FactoryDesignPattern" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleFactory.Main">
+  <component name="RunManager" selected="Application.FactoryDesignPattern.Main">
     <configuration name="Builder.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Builder.Main" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryDesignPattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FactoryDesignPattern.Main" />
+      <module name="FactoryPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FactoryDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,10 +128,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FactoryDesignPattern.Main" />
         <item itemvalue="Application.SimpleFactory.Main" />
         <item itemvalue="Application.Prototype_and_Registry.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Builder.Main" />
         <item itemvalue="Application.Builder.Main" />
       </list>
     </recent_temporary>
@@ -228,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687451281570</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Simple Factory">
+      <created>1687452203425</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1687452203425</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,6 +273,7 @@
     <MESSAGE value="Test chech" />
     <MESSAGE value="Prototype design pattern" />
     <MESSAGE value="Creations Design patterns till Factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creations Design patterns till Factory" />
+    <MESSAGE value="Simple Factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple Factory" />
   </component>
 </project>
