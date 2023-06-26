@@ -1,4 +1,4 @@
-package FactoryDesignPattern;
+package FactoryPattern.FactoryDesignPattern;
 
 public enum ButtonType {
     SUBMIT,

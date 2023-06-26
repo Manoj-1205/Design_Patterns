@@ -1,4 +1,4 @@
-package AbstractFactory;
+package FactoryPattern.AbstractFactory;
 
 public class MathsClassroom extends ClassroomFactory{
     public MathsClassroom(Integer id, String name){

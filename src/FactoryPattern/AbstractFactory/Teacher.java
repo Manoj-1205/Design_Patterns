@@ -1,6 +1,4 @@
-package AbstractFactory;
-
-import lombok.AllArgsConstructor;
+package FactoryPattern.AbstractFactory;
 
 
 public class Teacher extends Classroom{

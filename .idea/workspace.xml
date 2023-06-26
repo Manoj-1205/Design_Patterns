@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9c067a4-0b85-4592-8877-2fbb8decfe1a" name="Changes" comment="FactoryDesignPattern">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lombok1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/AbstractFactory/BiologyClassroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/AbstractFactory/ChemistryClassroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/AbstractFactory/Classroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/AbstractFactory/ClassroomFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/AbstractFactory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/AbstractFactory/MathsClassroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/AbstractFactory/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FactoryPattern/src/AbstractFactory/Teacher.java" afterDir="false" />
+    <list default="true" id="c9c067a4-0b85-4592-8877-2fbb8decfe1a" name="Changes" comment="Abstract Factory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design Patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Design Patterns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FactoryPattern/FactoryPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryPattern/FactoryPattern.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +17,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -55,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "D:/Intellij Java/lombok.jar",
+    "last_opened_file_path": "D:/Intellij Java/General Concepts",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -261,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687452714979</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Abstract Factory">
+      <created>1687455518335</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1687455518335</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,6 +285,7 @@
     <MESSAGE value="Creations Design patterns till Factory" />
     <MESSAGE value="Simple Factory" />
     <MESSAGE value="FactoryDesignPattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="FactoryDesignPattern" />
+    <MESSAGE value="Abstract Factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstract Factory" />
   </component>
 </project>

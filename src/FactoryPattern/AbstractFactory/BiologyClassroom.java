@@ -1,4 +1,4 @@
-package AbstractFactory;
+package FactoryPattern.AbstractFactory;
 
 public class BiologyClassroom extends ClassroomFactory{
 

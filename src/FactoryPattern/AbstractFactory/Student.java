@@ -1,4 +1,4 @@
-package AbstractFactory;
+package FactoryPattern.AbstractFactory;
 
 public class Student extends Classroom{
     String subject;

@@ -1,4 +1,4 @@
-package AbstractFactory;
+package FactoryPattern.AbstractFactory;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

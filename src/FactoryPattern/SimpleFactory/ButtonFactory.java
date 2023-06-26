@@ -1,4 +1,4 @@
-package SimpleFactory;
+package FactoryPattern.SimpleFactory;
 
 public class ButtonFactory {
     //Violates SRP and OCP
