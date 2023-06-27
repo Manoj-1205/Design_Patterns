@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9c067a4-0b85-4592-8877-2fbb8decfe1a" name="Changes" comment="Factory Design pattern - final">
-      <change afterPath="$PROJECT_DIR$/src/Adapter/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/PayPalAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/PaymentGatewayAPIs/PayPalAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/PaymentGatewayAPIs/RazorPayAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/RazorPayAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="c9c067a4-0b85-4592-8877-2fbb8decfe1a" name="Changes" comment="Adapter Factory pattern">
+      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/NotificationDecorator/BaseDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/NotificationDecorator/EmailNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/NotificationDecorator/PhoneNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/NotificationSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/TextNotification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +68,7 @@
       <recent name="Singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Adapter.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="AbstractFactory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AbstractFactory.Main" />
       <module name="FactoryPattern" />
@@ -109,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prototype_and_Registry.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Prototype_and_Registry.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DecoratorPattern.Main" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Prototype_and_Registry.*" />
+          <option name="PATTERN" value="DecoratorPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Adapter.Main" />
         <item itemvalue="Application.AbstractFactory.Main" />
         <item itemvalue="Application.FactoryDesignPattern.Main" />
         <item itemvalue="Application.SimpleFactory.Main" />
-        <item itemvalue="Application.Prototype_and_Registry.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687788229094</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Adapter Factory pattern">
+      <created>1687871774214</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1687871774214</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,6 +313,7 @@
     <MESSAGE value="FactoryDesignPattern" />
     <MESSAGE value="Abstract Factory" />
     <MESSAGE value="Factory Design pattern - final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Factory Design pattern - final" />
+    <MESSAGE value="Adapter Factory pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adapter Factory pattern" />
   </component>
 </project>
