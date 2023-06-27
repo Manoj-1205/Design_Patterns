@@ -1,6 +1,6 @@
-package Adapter;
+package AdapterPattern;
 
-import Adapter.PaymentGatewayAPIs.PayPalAPI;
+import AdapterPattern.PaymentGatewayAPIs.PayPalAPI;
 
 public class PayPalAdapter implements Adapter{
     private final PayPalAPI payPalAPI = new PayPalAPI();

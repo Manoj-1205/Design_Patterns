@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9c067a4-0b85-4592-8877-2fbb8decfe1a" name="Changes" comment="Adapter Factory pattern">
-      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/NotificationDecorator/BaseDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/NotificationDecorator/EmailNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/NotificationDecorator/PhoneNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/NotificationSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/TextNotification.java" afterDir="false" />
+    <list default="true" id="c9c067a4-0b85-4592-8877-2fbb8decfe1a" name="Changes" comment="Decorator Design pattern">
+      <change afterPath="$PROJECT_DIR$/src/FacadePattern/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FacadePattern/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FacadePattern/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FacadePattern/ShippmentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adapter/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdapterPattern/Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adapter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdapterPattern/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adapter/PayPalAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdapterPattern/PayPalAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adapter/PaymentGatewayAPIs/PayPalAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdapterPattern/PaymentGatewayAPIs/PayPalAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adapter/PaymentGatewayAPIs/RazorPayAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdapterPattern/PaymentGatewayAPIs/RazorPayAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adapter/RazorPayAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdapterPattern/RazorPayAdapter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +72,7 @@
       <recent name="Singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Order">
     <configuration name="AbstractFactory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AbstractFactory.Main" />
       <module name="FactoryPattern" />
@@ -82,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Adapter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Adapter.Main" />
+    <configuration name="AdapterPattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AdapterPattern.Main" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Adapter.*" />
+          <option name="PATTERN" value="AdapterPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleFactory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SimpleFactory.Main" />
-      <module name="FactoryPattern" />
+    <configuration name="Order" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FacadePattern.Order" />
+      <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SimpleFactory.*" />
+          <option name="PATTERN" value="FacadePattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Order" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Adapter.Main" />
+        <item itemvalue="Application.AdapterPattern.Main" />
         <item itemvalue="Application.AbstractFactory.Main" />
         <item itemvalue="Application.FactoryDesignPattern.Main" />
-        <item itemvalue="Application.SimpleFactory.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687871774214</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Decorator Design pattern">
+      <created>1687874605342</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1687874605342</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -314,6 +325,7 @@
     <MESSAGE value="Abstract Factory" />
     <MESSAGE value="Factory Design pattern - final" />
     <MESSAGE value="Adapter Factory pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adapter Factory pattern" />
+    <MESSAGE value="Decorator Design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Decorator Design pattern" />
   </component>
 </project>

@@ -1,7 +1,6 @@
-package Adapter;
+package AdapterPattern;
 
-import Adapter.PaymentGatewayAPIs.PayPalAPI;
-import Adapter.PaymentGatewayAPIs.RazorPayAPI;
+import AdapterPattern.PaymentGatewayAPIs.RazorPayAPI;
 
 public class RazorPayAdapter implements Adapter {
 
