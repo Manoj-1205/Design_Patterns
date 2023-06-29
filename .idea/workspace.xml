@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9c067a4-0b85-4592-8877-2fbb8decfe1a" name="Changes" comment="Decorator Design pattern">
-      <change afterPath="$PROJECT_DIR$/src/FacadePattern/InventoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FacadePattern/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FacadePattern/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FacadePattern/ShippmentService.java" afterDir="false" />
+    <list default="true" id="c9c067a4-0b85-4592-8877-2fbb8decfe1a" name="Changes" comment="Facade Design pattern">
+      <change afterPath="$PROJECT_DIR$/src/BehaviouralDesignPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehaviouralDesignPattern/Observer/BitcoinTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehaviouralDesignPattern/Observer/ListOfSubscribers/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehaviouralDesignPattern/Observer/ListOfSubscribers/Elon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehaviouralDesignPattern/Observer/ListOfSubscribers/Steve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehaviouralDesignPattern/Observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehaviouralDesignPattern/Observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehaviouralDesignPattern/Observer/Subject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adapter/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdapterPattern/Adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adapter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdapterPattern/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adapter/PayPalAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdapterPattern/PayPalAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adapter/PaymentGatewayAPIs/PayPalAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdapterPattern/PaymentGatewayAPIs/PayPalAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adapter/PaymentGatewayAPIs/RazorPayAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdapterPattern/PaymentGatewayAPIs/RazorPayAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adapter/RazorPayAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdapterPattern/RazorPayAdapter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
       <recent name="Singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Order">
+  <component name="RunManager" selected="Application.BehaviouralDesignPattern.Observer.Main">
     <configuration name="AbstractFactory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AbstractFactory.Main" />
       <module name="FactoryPattern" />
@@ -99,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryDesignPattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FactoryDesignPattern.Main" />
-      <module name="FactoryPattern" />
+    <configuration name="BehaviouralDesignPattern.Observer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BehaviouralDesignPattern.Observer.Main" />
+      <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FactoryDesignPattern.*" />
+          <option name="PATTERN" value="BehaviouralDesignPattern.Observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BehaviouralDesignPattern.Observer.Main" />
         <item itemvalue="Application.Order" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.AdapterPattern.Main" />
         <item itemvalue="Application.AbstractFactory.Main" />
-        <item itemvalue="Application.FactoryDesignPattern.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687874605342</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Facade Design pattern">
+      <created>1687881638040</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1687881638040</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -326,6 +331,7 @@
     <MESSAGE value="Factory Design pattern - final" />
     <MESSAGE value="Adapter Factory pattern" />
     <MESSAGE value="Decorator Design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Decorator Design pattern" />
+    <MESSAGE value="Facade Design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Facade Design pattern" />
   </component>
 </project>
