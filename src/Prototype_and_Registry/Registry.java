@@ -11,7 +11,7 @@ import java.util.HashMap;
 @Setter
 
 public class Registry {
-    BackgroundObject backgroundObject;
+//    BackgroundObject backgroundObject;
     public static HashMap<BackgroundObjectType, BackgroundObject> map = new HashMap<>();
 
     public static void addPrototype(BackgroundObject backgroundObject){

@@ -18,44 +18,38 @@ public class Employee {
 
     }
 
-    public static Builder builder(){
-        return new Builder();
-    }
-    public static class Builder extends Employee{
-        private Integer empId;
-        private String name;
-        private Department department;
-        private Double experience;
 
+    public static class Builder {
+        Employee employee=new Employee();
+
+        public Builder(){
+
+        }
 
         public Builder withEmpId(Integer empId){
-            this.empId = empId;
+            employee.empId = empId;
             return this;
         }
 
         public Builder withName(String name){
-            this.name = name;
+            employee.name = name;
             return this;
         }
 
         public Builder withDepartment(Department department){
-            this.department = department;
+            employee.department = department;
             return this;
         }
 
         public Builder withExperience(Double experience){
-            this.experience = experience;
+            employee.experience = experience;
             return this;
         }
 
 
 
         public Employee build(){
-            Employee employee = new Employee();
-            employee.empId = this.empId;
-            employee.name = this.name;
-            employee.department = this.department;
-            employee.experience = experience;
+
             return employee;
         }
 

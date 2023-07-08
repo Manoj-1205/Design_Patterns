@@ -15,6 +15,9 @@ public class BitcoinTracker implements Subject{
 
     @Override
     public void addSubscriber(Observer subscriber) {
+        int a=5;
+        Integer n = a;
+        int b = n;
         subscribersList.add(subscriber);
     }
 

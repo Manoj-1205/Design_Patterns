@@ -2,8 +2,7 @@ package Builder;
 
 public class Main {
     public static void main(String[] args) {
-        Employee employee = Employee
-                .builder()
+        Employee employee = new Employee.Builder()
                 .withEmpId(26)
                 .withDepartment(Department.Support)
                 .withName("Manoj")
