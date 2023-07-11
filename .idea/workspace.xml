@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9c067a4-0b85-4592-8877-2fbb8decfe1a" name="Changes" comment="Flyweight Design pattern">
-      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/ChessGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/Level.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/LevelStrategy/EasyStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/LevelStrategy/HardStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/LevelStrategy/LevelStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/LevelStrategy/MediumStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DecoratorPattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecoratorPattern/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DecoratorPattern/NotificationDecorator/EmailNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecoratorPattern/NotificationDecorator/EmailNotification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DecoratorPattern/NotificationDecorator/PhoneNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecoratorPattern/NotificationDecorator/PhoneNotification.java" afterDir="false" />
-    </list>
+    <list default="true" id="c9c067a4-0b85-4592-8877-2fbb8decfe1a" name="Changes" comment="Strategy design pattern" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -323,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688801299500</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Strategy design pattern">
+      <created>1689085474561</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1689085474561</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,21 +349,7 @@
     <MESSAGE value="Facade Design pattern" />
     <MESSAGE value="Behavioural design pattern - Observer" />
     <MESSAGE value="Flyweight Design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Flyweight Design pattern" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/StrategyPattern/Main.java</url>
-          <line>5</line>
-          <properties class="StrategyPattern.Main" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Strategy design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strategy design pattern" />
   </component>
 </project>
