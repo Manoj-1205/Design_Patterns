@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9c067a4-0b85-4592-8877-2fbb8decfe1a" name="Changes" comment="Behavioural design pattern - Observer">
-      <change afterPath="$PROJECT_DIR$/src/FlyweightPattern/Bullet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FlyweightPattern/FlyingBullet.java" afterDir="false" />
+    <list default="true" id="c9c067a4-0b85-4592-8877-2fbb8decfe1a" name="Changes" comment="Flyweight Design pattern">
+      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/ChessGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/Level.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/LevelStrategy/EasyStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/LevelStrategy/HardStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/LevelStrategy/LevelStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/LevelStrategy/MediumStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehaviouralDesignPattern/Observer/BitcoinTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehaviouralDesignPattern/Observer/BitcoinTracker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehaviouralDesignPattern/Observer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehaviouralDesignPattern/Observer/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Builder/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Builder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prototype_and_Registry/Registry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prototype_and_Registry/Registry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DecoratorPattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecoratorPattern/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DecoratorPattern/NotificationDecorator/EmailNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecoratorPattern/NotificationDecorator/EmailNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DecoratorPattern/NotificationDecorator/PhoneNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecoratorPattern/NotificationDecorator/PhoneNotification.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,21 +51,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "D:/Intellij Java/Design Patterns",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Intellij Java/Design Patterns&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="StrategyPattern" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Intellij Java\Design Patterns\src\BuilderTest" />
       <recent name="D:\Intellij Java\Design Patterns\FactoryPattern\src\FactoryDesignPattern" />
@@ -70,20 +77,7 @@
       <recent name="Singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="BehaviouralDesignPattern.Observer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BehaviouralDesignPattern.Observer.Main" />
-      <module name="Design Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BehaviouralDesignPattern.Observer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StrategyPattern.Main">
     <configuration name="Builder.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Builder.Main" />
       <module name="Design Patterns" />
@@ -136,13 +130,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StrategyPattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StrategyPattern.Main" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StrategyPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrategyPattern.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.FactoryPattern.AbstractFactory.Main" />
         <item itemvalue="Application.Prototype_and_Registry.Main" />
         <item itemvalue="Application.Builder.Main" />
-        <item itemvalue="Application.BehaviouralDesignPattern.Observer.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688057353984</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Flyweight Design pattern">
+      <created>1688801299500</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1688801299500</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -340,6 +354,22 @@
     <MESSAGE value="Decorator Design pattern" />
     <MESSAGE value="Facade Design pattern" />
     <MESSAGE value="Behavioural design pattern - Observer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Behavioural design pattern - Observer" />
+    <MESSAGE value="Flyweight Design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flyweight Design pattern" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/StrategyPattern/Main.java</url>
+          <line>5</line>
+          <properties class="StrategyPattern.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

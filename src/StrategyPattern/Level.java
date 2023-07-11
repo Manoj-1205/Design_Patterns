@@ -1,0 +1,5 @@
+package StrategyPattern;
+
+public enum Level {
+    EASY, MEDIUM, HARD
+}

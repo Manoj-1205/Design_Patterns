@@ -4,7 +4,7 @@ import DecoratorPattern.NotificationSender;
 
 public class PhoneNotification extends BaseDecorator{
 
-
+//     priv
     public PhoneNotification(NotificationSender notificationSender){
         super(notificationSender);
     }

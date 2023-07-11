@@ -9,6 +9,7 @@ public class Main {
         NotificationSender phoneNotification = new PhoneNotification(notificationSender);
         NotificationSender emailNotification = new EmailNotification(notificationSender);
         NotificationSender emailPhoneNotification = new EmailNotification(phoneNotification);
+
         System.out.println(emailPhoneNotification.sendMessage());
     }
 }
